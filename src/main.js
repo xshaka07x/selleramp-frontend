@@ -1,6 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import router from "./router"; // ✅ Importer Vue Router
+import router from "./router.js"; // Vérifie que le fichier existe bien
+
 
 import "./index.css"; // ✅ Importer Tailwind
 
